@@ -1,0 +1,52 @@
+Feature: Login Functional Flow
+
+    Scenario1: Login with Valid Credential
+    Given User able to open the Browser
+    And User able to enter the url
+    When User able enter the username
+    And user able to enter the password
+    And user able to click on the Submit button
+    Then verify the login sucessfull
+    And verify the home screen
+    And user able to click on the PIM button
+    And user able to click on the add button
+    And user fill the all detalis
+   
+   
+    Scenario2: Login with Valid Credential
+    Given User able to open the Browser
+    And User able to enter the url
+    When User able enter the username
+    And user able to enter the password
+    And user able to click on the Submit button
+    Then verify the login sucessfull
+    And verify the home screen
+    And user able to click on the Submit button
+    And user able to click on the PIM button
+    And user able to click on the add button
+    And user fill the all detalis
+    And user click the edit button
+    And click the personal deatlis
+    And fill the all deatlis for personal employee detalis
+    And click the save button
+    
+    
+    Scenario3: Login with Valid Credential
+    Given User able to open the Browser
+    And User able to enter the url
+    When User able enter the userName
+    And user able to enter the password
+    And user able to click on the Submit button
+    Then verify the login sucessfull
+    And verify the home screen
+    And user able to click on the Submit button
+    And user able to click on the PIM button
+    And user able to click on the add button
+    And user fill the all detalis
+    And user click the edit button
+    And click the contact deatlis
+    And fill the all deatlis for contactemployee detalis
+    And click the save button
+    
+    
+      
